@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/assets/img/logo-rhcp.png">
+    <title>Landing Page</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="close-menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <a href="#home"> <img class="img-logo" src="./assets/img/logo-rhcp.png" alt="Logo RHCP"
+                onclick="getElementById('close-menu').checked = false;"> </a>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li>
+                        <a href="#intro">Home</a>
+                    </li>
+                    <li>
+                        <a href="#top3">Top 3</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Álbuns</a>
+                    </li>
+                    <li>
+                        <a href="#integrantes">Integrantes</a>
+                    </li>
+                    <li>
+                        <a href="#musicas">Músicas</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </aside>
+
+    <!-- Primeira Seção -->
+    <section id="home" class="intro main-bg section">
+
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Red Hot Chili Peppers</h2>
+                <p>Red Hot Chili Peppers é uma banda de rock dos Estados Unidos formada em Los Angeles,
+                    Califórnia, em 1983. O estilo musical do grupo consiste principalmente no funk rock,
+                    bem como elementos de outros gêneros, tais como punk, rock alternativo, rap rock e
+                    rock psicodélico. </p>
+            </div>
+
+            <div class="intro-img">
+                <img class="img-integrante" src="./assets/img/integrantes-rhcp.png" alt="Integrantes RHCP">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Segunda Seção -->
+    <section id="intro" class="white-bg section">
+
+        <div class="main-content top3-content">
+            <h2>Os sucessos</h2>
+
+            <p> 
+               Os Red Hot são repletos de músicas cheias de histórias e vivência por trás. Isso dá um ar imenso
+               de originalidade e seguraça em suas canções. A banda com mais de 40 anos de existência, lançou dois álbuns 
+               em um ano no último ano! Isso prova que eles tem um ritmo próprio e que não cansam de sempre cantar sobre a pós-modernidade.
+               A banda coleciona mais de 47 premiações e 139 indicações, incluindo um Grammy de melhor álbum de rock com 'Stadium Arcadium' em 2007.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Terceira Section -->
+    <section id="top3" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">As mais apimentadas <br> 🌶️</h2>
+            <p class="gri-description">Com indicações e prêmios.</p>
+
+            <div class="grid">
+                <article>
+                    <p>
+                        <h3>Give It Away</h3>
+                        Lançada em 1991 como o primeiro single de <i>Blood Sugar Sex Magik</i>, Give It Away ganhou um 
+                        Grammy em 1993 por Melhor Performance de Hard Rock. No VMA, recebeu indicações de Melhor Vídeo Alternativo,
+                        mas levou o prêmio de Melhor Direção de Arte.
+                    </p>
+                </article>
+
+                <article>
+                    <p>
+                        <h3>Dani Califórnia</h3>
+                       Em 2007, recebeu três indicações e ganhou dois prêmios no Grammy, sendo eles o de Melhor Canção de Rock e o de Melhor Performance
+                       de Rock em Dupla ou Grupo. No mesmo ano, eles levaram o Melhor Álbum de Rock com <i>Stadium Arcadium</i>.
+                    </p>
+                </article>
+
+                <article>
+                    <p>
+                        <h3>Scar Tissue</h3>
+                        A queridinha do vocalista Anthony Kiedis que até sua biografia recebeu o seu nome, Scar Tissue ganhou em 2000 o Grammy de 
+                        Melhor Canção de Rock.
+                    </p>
+                </article>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quarta Section -->
+    <section id="gallery" class="grid-one white-bg section">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Álbuns</h2>
+            <p class="gri-description">A arte em seus discos</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://cdn.smarturl.it/prod/images/retail/upload/cabh/ad/zpt0zqx2udcmo833kgbygfja_59127.jpg" alt="RHCP - Californication">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://paroles.b-cdn.net/wp-content/uploads/2022/03/Red-Hot-Chili-Peppers-Unlimited-Love-Lyrics-360x360.png" alt="RHCP - Unlimited Love">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://recordstoreday.com/Photo/418455679557:360" alt="Special Release">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://gncnews.com.br/img/crop?img=cc5142d98a2563a117b98f8989c5d57e.jpg&w=360&h=360&fit=crop&fm=jpg&q=90" alt="Return of the Dream Canteen">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://stereodisc.gr/wp-content/uploads/2019/07/3ea86713e386b23b0492392ff16216f9.1000x1000x1-360x360.jpg" alt="RHCP - Blood Sugar Sex Magik">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://cdn.alza.cz/Foto/f5/FE/FER9362492016.jpg" alt="The Gateway">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quinta Section -->
+    <section id="integrantes" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Integrantes 🌶️</h2>
+            <p class="gri-description">Conheça a banda</p>
+
+            <div class="grid4">
+                <article>
+                    <div class="round">
+                        <img src="https://cloud.rtl.it/RTLFM/News/Article/1000x1000/anthony-kiedis-un-compleanno-davvero-unico-zidej.png" alt="Anthony Kiedis"
+                        class="img-integrantes">
+                    </div>
+                    <p>
+                        <h3>Anthony Kiedis</h3>
+                        É o vocalista, letrista e fundador da banda Red Hot Chili Peppers, banda que fundou em 1983 junto a seus amigos Flea, Hillel Slovak e Jack Irons.
+                    </p>
+                </article>
+
+                <article>
+                    <div class="round">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/2016_RiP_Red_Hot_Chili_Peppers_-_Chad_Smith_-_by_2eight_-_DSC0184.jpg" alt="Chad Smith"
+                        class="img-integrantes">
+                    </div>
+                    <p>
+                        <h3>Chad Smith</h3>
+                       É o baterista da banda, membro de longa data dos Red Hot, se juntou a banda em 1988 e permanece até hoje. Em 2008 se juntou a Chickenfoot quando a banda entrou em hiatus.</i>.
+                    </p>
+                </article>
+
+                <article>
+                    <div class="round">
+                        <img src="https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2020/06/25/flea-1-philip-cosores.jpg" alt="Flea"
+                        class="img-integrantes">
+                    </div>
+                    <p>
+                        <h3>Flea</h3>
+                        Baixista autraliano considerado um dos maiores baixista da história da música. Flea foi o responsável por escolher o nome da banda, assim... Nasceu Red Hot Chili Peppers.
+                    </p>
+                </article>
+
+                <article>
+                    <div class="round">
+                        <img src="https://www.redhotchilipeppers.com.br/wp-content/uploads/2022/11/john-guitar-player-holiday-1.png" alt="John Frusciante"
+                        class="img-integrantes">
+                    </div>
+                    <p>
+                        <h3>John Frusciante</h3>
+                        Frusciante juntou-se aos Red Hot Chili Peppers aos 18 anos, entrando pela primeira vez no álbum Mother's Milk de 1989. Ás vezes divide vocal com o Anthony, como na música 'Dosed'.
+                    </p>
+                </article>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sexta Section -->
+    <section id="musicas" class="white-bg section">
+
+        <div class="main-content top3-content">
+            <h2>As músicas favoritas de cada álbum</h2>
+
+            <p> 
+               Abaixo está uma tabela interativa de músicas, aonde você será redirecionado ao link dessas músicas e poderá escutá-las! 
+               Os álbuns presentes são relacionados as capas que estão mais acima, respectivamente.
+            </p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de músicas</caption>
+    
+                    <thead>
+                        <tr>
+                            <th>Californication</th>
+                            <th>Unlimited Love</th>
+                            <th>I'm With You</th>
+                            <th>ROTDC</th>
+                            <th>BSSM</th>
+                            <th>The Gateway</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=HK1XaLG6McE"> Otherside </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=OS8taasZl8k"> Black Summer </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=KgAyboFDDvA"> Police Station </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=OIxRRR3gS_E"> Fake As F@uck </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=GLvohMXgcBo"> Under The Bridge </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=HI-8CVixZ5o"> Go Robot </a> </td>
+                        </tr>
+    
+                        <tr>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=a9eNQZbjpJk"> Around the Word </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=QIeVKsarmvY"> Veronica </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=qOgFHMEJMeY"> Monarchy of Roses </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=pXMEXCT5ohY"> Eddie </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=vvfWewLU7N0"> I Could Have Lied </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=Q0oIoR9mLwc"> Dark Necessities </a> </td> 
+                        </tr>
+    
+                        <tr>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=mzJj5-lubeM"> Scar Tissue </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=lxHWfCzS5uQ"> Poster Child </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=9IuOzdGALVg"> Catch My Death </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=E1FNkf3MLKY"> Tippa My Tongue </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=Mr_uHJPUlO8"> Give It Away </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=txTqtm58AqM"> Goodbye Angels </a> </td> 
+                        </tr>
+    
+                        <tr>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=YlUKcNNmywk"> Californication </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=PccS-4wSZCY"> These Are The Ways </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=X6YbVCyXs98"> Brendan Death Song </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=aP-oFkZknS4"> The Drummer </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=80y5k35sx3w"> If You Have to Ask </a> </td>
+                            <td> <a class="item-music" target="_blank" href="https://www.youtube.com/watch?v=-VDgEchOpSA"> Sick Love </a> </td> 
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sétima Section -->
+    <section id="contact" class="intro main-bg section">
+
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Red Hot Chili Peppers</h2>
+                <p>Portifólio feito por uma grande fã da banda. Feito totalmente com HTML e CSS, praticando novas habilidades adquiridas  
+                    com longos estudos e aberta a novos desafios claro, ouvindo uma boa música!
+                </p>
+            </div>
+
+            <div class="intro-img">
+                <img class="img-integrante" src="./assets/img/rhcp.png" alt="Integrantes RHCP">
+            </div>
+
+            <div class="contact-form">
+
+                <fieldset class="form-grid">
+                    <legend>Gostou do conteúdo? Contate-nos para mais!</legend>
+
+                    <div class="form-group">
+                        <label for="first-name"> Primeiro Nome </label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name"> Sobrenome </label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"> E-mail </label>
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message"> Mensagem </label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit"> Enviar Mensagem </button>
+                    </div>
+
+
+                </fieldset>
+            
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p> <a rel="nofollow" href="https://www.linkedin.com/in/carolina-nascimento-94b6aa219/" target="_blank"> Feito com ❤️ por Carolina Costa </a> </p>
+    </footer>
+
+    <a href="#home" class="back-to-top">🔝</a>
+
+</body>
+
+</html>
